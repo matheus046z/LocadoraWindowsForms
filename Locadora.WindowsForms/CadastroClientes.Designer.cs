@@ -36,9 +36,9 @@
             this.btnCadastrarCliente = new System.Windows.Forms.Button();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtEndereco = new System.Windows.Forms.TextBox();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtRG = new System.Windows.Forms.TextBox();
-            this.txtCPF = new System.Windows.Forms.TextBox();
+            this.mtxtCPF = new System.Windows.Forms.MaskedTextBox();
+            this.mtxtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -91,7 +91,7 @@
             this.btnCadastrarCliente.Location = new System.Drawing.Point(62, 221);
             this.btnCadastrarCliente.Name = "btnCadastrarCliente";
             this.btnCadastrarCliente.Size = new System.Drawing.Size(160, 23);
-            this.btnCadastrarCliente.TabIndex = 5;
+            this.btnCadastrarCliente.TabIndex = 6;
             this.btnCadastrarCliente.Text = "Cadastrar";
             this.btnCadastrarCliente.UseVisualStyleBackColor = true;
             this.btnCadastrarCliente.Click += new System.EventHandler(this.btnCadastrarCliente_Click);
@@ -101,44 +101,46 @@
             this.txtNome.Location = new System.Drawing.Point(122, 47);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(100, 20);
-            this.txtNome.TabIndex = 6;
+            this.txtNome.TabIndex = 1;
             // 
             // txtEndereco
             // 
             this.txtEndereco.Location = new System.Drawing.Point(122, 79);
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(100, 20);
-            this.txtEndereco.TabIndex = 7;
-            // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Location = new System.Drawing.Point(122, 111);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(100, 20);
-            this.txtTelefone.TabIndex = 8;
+            this.txtEndereco.TabIndex = 2;
             // 
             // txtRG
             // 
             this.txtRG.Location = new System.Drawing.Point(122, 141);
             this.txtRG.Name = "txtRG";
             this.txtRG.Size = new System.Drawing.Size(100, 20);
-            this.txtRG.TabIndex = 9;
+            this.txtRG.TabIndex = 4;
             // 
-            // txtCPF
+            // mtxtCPF
             // 
-            this.txtCPF.Location = new System.Drawing.Point(122, 174);
-            this.txtCPF.Name = "txtCPF";
-            this.txtCPF.Size = new System.Drawing.Size(100, 20);
-            this.txtCPF.TabIndex = 10;
+            this.mtxtCPF.Location = new System.Drawing.Point(122, 175);
+            this.mtxtCPF.Mask = "000.000.000-00";
+            this.mtxtCPF.Name = "mtxtCPF";
+            this.mtxtCPF.Size = new System.Drawing.Size(100, 20);
+            this.mtxtCPF.TabIndex = 5;
+            // 
+            // mtxtTelefone
+            // 
+            this.mtxtTelefone.Location = new System.Drawing.Point(122, 112);
+            this.mtxtTelefone.Mask = "(00) 00000-0000";
+            this.mtxtTelefone.Name = "mtxtTelefone";
+            this.mtxtTelefone.Size = new System.Drawing.Size(100, 20);
+            this.mtxtTelefone.TabIndex = 3;
             // 
             // CadastroClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(306, 307);
-            this.Controls.Add(this.txtCPF);
+            this.Controls.Add(this.mtxtTelefone);
+            this.Controls.Add(this.mtxtCPF);
             this.Controls.Add(this.txtRG);
-            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.btnCadastrarCliente);
@@ -164,9 +166,9 @@
         private System.Windows.Forms.Button btnCadastrarCliente;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtEndereco;
-        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtRG;
-        private System.Windows.Forms.TextBox txtCPF;
+        private System.Windows.Forms.MaskedTextBox mtxtCPF;
+        private System.Windows.Forms.MaskedTextBox mtxtTelefone;
     }
 }
 

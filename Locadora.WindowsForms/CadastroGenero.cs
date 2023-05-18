@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Locadora.Filmes;
 
 namespace Locadora.WindowsForms
 {
@@ -15,6 +16,14 @@ namespace Locadora.WindowsForms
         public CadastroGenero()
         {
             InitializeComponent();
+        }
+
+        private void btnCadastrarGenero_Click(object sender, EventArgs e)
+        {
+            Genero genero = new Genero();
+            Genero.Nome = txtNomeGenero.Text;
+            
+
         }
     }
 }

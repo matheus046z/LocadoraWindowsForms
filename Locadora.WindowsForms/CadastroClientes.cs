@@ -23,11 +23,21 @@ namespace Locadora.WindowsForms
         {
             Cliente cliente = new Cliente();
             cliente.Nome = txtNome.Text;
-            cliente.Telefone = txtTelefone.Text;
+            cliente.Telefone = mtxtTelefone.Text;
             cliente.RG = txtRG.Text;
-            cliente.CPF = txtCPF.Text;
+            cliente.CPF = mtxtCPF.Text;
             cliente.Endereco = txtEndereco.Text;
-            MessageBox.Show("CLIENTE CADASTRADO! \nNome: " + cliente.Nome + "\nTelefone: " + cliente.Telefone + "\nRG: " + cliente.RG + "\n CPF: " + cliente.CPF + "\nEndereço: " + cliente.Endereco);
+
+            bool cpfValido = Cliente.ValidarCPF(mtxtCPF.Text);
+
+            if (cpfValido)
+            {
+                MessageBox.Show("CLIENTE CADASTRADO! \nNome: " + cliente.Nome + "\nTelefone: " + cliente.Telefone + "\nRG: " + cliente.RG + "\nCPF: " + cliente.CPF + "\nEndereço: " + cliente.Endereco);//get
+            }
+            else
+            {
+                MessageBox.Show("CPF INVÁLIDO!");
+            }
         }
     }
 }

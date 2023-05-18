@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Locadora.Filmes
 {
-    internal class Genero
+    public class Genero
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -19,7 +19,7 @@ namespace Locadora.Filmes
         {
             Id = id;
         }
-        public Genero(int id, string nome) : this(id)
+        public Genero(string nome)
         {
             Nome = nome;
         }
