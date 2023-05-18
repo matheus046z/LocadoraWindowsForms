@@ -1,0 +1,6 @@
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Cliente\bin\Debug\Locadora.Cliente.dll
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Cliente\bin\Debug\Locadora.Cliente.pdb
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Cliente\obj\Debug\Locadora.Cliente.csproj.AssemblyReference.cache
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Cliente\obj\Debug\Locadora.Cliente.csproj.CoreCompileInputs.cache
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Cliente\obj\Debug\Locadora.Cliente.dll
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Cliente\obj\Debug\Locadora.Cliente.pdb

@@ -1,0 +1,6 @@
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Filme\bin\Debug\Locadora.Filme.dll
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Filme\bin\Debug\Locadora.Filme.pdb
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Filme\obj\Debug\Locadora.Filmes.csproj.AssemblyReference.cache
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Filme\obj\Debug\Locadora.Filmes.csproj.CoreCompileInputs.cache
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Filme\obj\Debug\Locadora.Filme.dll
+C:\Users\ALUNO\source\repos\Locadora\Locadora.Filme\obj\Debug\Locadora.Filme.pdb
